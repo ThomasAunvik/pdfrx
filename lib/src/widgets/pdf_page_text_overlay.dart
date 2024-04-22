@@ -537,6 +537,8 @@ class _PdfTextRenderBox extends RenderBox with Selectable, SelectionRegistrant {
           }
           _start = newOffset;
         }
+        default:
+          break;
     }
     _updateGeometry();
     return result;
